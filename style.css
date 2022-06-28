@@ -62,6 +62,11 @@ button {
     border-width: 1px;
 }
 
+.operator,
+.clear {
+    background-color: rgb(165, 210, 212);
+}
+
 #btn0,
 #clear {
     flex: auto;
@@ -78,4 +83,8 @@ button {
 #divide,
 #equal {
     width: auto;
+}
+
+.secondary {
+    background-color: rgb(127, 255, 229);
 }
